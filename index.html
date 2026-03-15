@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snake</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="game-shell">
+    <h1>Snake</h1>
+    <section class="hud" aria-label="Game info">
+      <p>Score: <span id="score">0</span></p>
+      <p>High Score: <span id="highScore">0</span></p>
+    </section>
+
+    <canvas id="gameCanvas" width="480" height="480" aria-label="Snake game area"></canvas>
+
+    <section class="controls" aria-label="Controls">
+      <p>Use arrow keys or WASD to move.</p>
+      <p>Press <kbd>Space</kbd> to pause. Press <kbd>R</kbd> to restart.</p>
+    </section>
+
+    <p id="status" class="status" role="status" aria-live="polite">Press any direction key to start.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
