@@ -37,3 +37,4 @@ env/
 
 # High score file (optional, can be committed)
 # highscore.json
+venv/
